@@ -1,16 +1,17 @@
-# Foundry template
+# EzDepositor
 
-Template to kickstart a Foundry project.
+Easily contribute directly to PoolTogether V5 prize pools.
 
-## Getting started
+Want to pump vaults?  Contribute prizes to the prize pool on their behalf.
 
-The easiest way to get started is by clicking the [Use this template](https://github.com/GenerationSoftware/foundry-template/generate) button at the top right of this page.
+Deployed on Optimism and verified on Etherscan at  [0x68A100A3729Fc04ab26Fb4C0862Df22CEec2f18B](https://optimistic.etherscan.io/address/0x68A100A3729Fc04ab26Fb4C0862Df22CEec2f18B#writeContract)
 
-If you prefer to go the CLI way:
+[Prize Pool on Optimism](https://optimistic.etherscan.io/address/0xF35fE10ffd0a9672d0095c435fd8767A7fe29B55)
 
-```
-forge init my-project --template https://github.com/GenerationSoftware/foundry-template
-```
+## Contributing Prizes
+
+1. First WETH approve spending by the EzDepositor.  [WETH on Optimism](https://optimistic.etherscan.io/token/0x4200000000000000000000000000000000000006#writeContract#F1)
+2. Call `contribute()` with the prize pool address, your desired vault address, and the amount of WETH you want to contribute.
 
 ## Development
 
