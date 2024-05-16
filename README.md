@@ -8,9 +8,13 @@ Deployed on Optimism and verified on Etherscan at  [0x68A100A3729Fc04ab26Fb4C086
 
 [Prize Pool on Optimism](https://optimistic.etherscan.io/address/0xF35fE10ffd0a9672d0095c435fd8767A7fe29B55)
 
+Deployed on Base and verified on Etherscan at  [0x4E30C0a8cCE76940D87ae62EB12f3Ac536A996F4](https://basescan.org/address/0x4e30c0a8cce76940d87ae62eb12f3ac536a996f4#writeContract)
+
+[Prize Pool on Base](https://basescan.org/address/0x45b2010d8A4f08b53c9fa7544C51dFd9733732cb)
+
 ## Contributing Prizes
 
-1. First WETH approve spending by the EzDepositor.  [WETH on Optimism](https://optimistic.etherscan.io/token/0x4200000000000000000000000000000000000006#writeContract#F1)
+1. First WETH approve spending by the EzDepositor.  [WETH on Optimism](https://optimistic.etherscan.io/token/0x4200000000000000000000000000000000000006#writeContract#F1) or [WETH on Base](https://basescan.org/token/0x4200000000000000000000000000000000000006#writeContract)
 2. Call `contribute()` with the prize pool address, your desired vault address, and the amount of WETH you want to contribute.
 
 ## Development
