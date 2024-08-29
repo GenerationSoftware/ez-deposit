@@ -22,7 +22,7 @@ Deployed on Ethereum Mainnet and verified on Etherscan at  [0x84882EB46dA981d1aD
 
 ## Contributing Prizes
 
-1. First WETH approve spending by the EzDepositor.  [WETH on Optimism](https://optimistic.etherscan.io/token/0x4200000000000000000000000000000000000006#writeContract#F1), [WETH on Base](https://basescan.org/token/0x4200000000000000000000000000000000000006#writeContract) or [WETH on Arbitrum](https://arbiscan.io/address/0x5f9292672e33b76b70dea44163c780376b4da397#writeContract)
+1. First WETH approve spending by the EzDepositor.  [WETH on Optimism](https://optimistic.etherscan.io/token/0x4200000000000000000000000000000000000006#writeContract#F1), [WETH on Base](https://basescan.org/token/0x4200000000000000000000000000000000000006#writeContract), [WETH on Arbitrum](https://arbiscan.io/address/0x5f9292672e33b76b70dea44163c780376b4da397#writeContract), or [WETH on Ethereum](https://etherscan.io/address/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2#writeContract)
 2. Call `contribute()` with the prize pool address, your desired vault address, and the amount of WETH you want to contribute.
 
 ## Development
