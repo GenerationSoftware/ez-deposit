@@ -42,6 +42,12 @@ Deployed on Gnosis Mainnet and verified on Etherscan at [0x69fc8095b949c0ff703ea
 
 ---
 
+Deployed on World Mainnet and verified on Etherscan at [0x8fa49ebd94A68272579AAa71b41fE3A3Bf110fE0](https://worldscan.org/address/0x8fa49ebd94a68272579aaa71b41fe3a3bf110fe0#writeContract)
+
+[Prize Pool on World](https://worldscan.org/address/0x99ffb0a6c0cd543861c8de84dd40e059fd867dcf)
+
+---
+
 ## Contributing Prizes
 
 1. First approve prize token spending by the EzDepositor. 
@@ -51,6 +57,7 @@ Deployed on Gnosis Mainnet and verified on Etherscan at [0x69fc8095b949c0ff703ea
   - [WETH on Ethereum](https://etherscan.io/address/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2#writeContract)
   - [WETH on Scroll](https://scrollscan.com/address/0x5300000000000000000000000000000000000004)
   - [WXDAI on Gnosis](https://gnosisscan.io/address/0xe91D153E0b41518A2Ce8Dd3D7944Fa863463a97d)
+  - [WLD on World](https://worldscan.org/address/0x2cFc85d8E48F8EAB294be644d9E25C3030863003)
 2. Call `contribute()` with the prize pool address, your desired vault address, and the amount of WETH you want to contribute.
 
 ## Development
